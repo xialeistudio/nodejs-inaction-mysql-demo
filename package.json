@@ -1,0 +1,23 @@
+{
+  "name": "mysql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "insert": "node dist/insert",
+    "update": "node dist/update",
+    "select": "node dist/select",
+    "delete": "node dist/delete"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mysql": "0.0.33",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "mysql": "^2.13.0"
+  }
+}
